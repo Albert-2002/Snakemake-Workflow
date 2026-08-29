@@ -7,7 +7,3 @@ __pycache__/
 *.pyd
 # Snakemake additions
 .snakemake/
-data/
-results/
-logs/
-*.log
