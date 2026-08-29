@@ -5,3 +5,9 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+# Snakemake additions
+.snakemake/
+data/
+results/
+logs/
+*.log
