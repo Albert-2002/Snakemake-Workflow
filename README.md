@@ -90,4 +90,21 @@ snakemake --rulegraph | dot -Tpng > rulegraph.png   # per-rule DAG (one box per 
 snakemake --filegraph | dot -Tpng > filegraph.png   # per-file, but grouped/simplified
 ```
 
+### Wildcards
+
+One rule handles multiple similar tasks using wildcards. `expand()` requests all concrete outputs.
+
+```Python
+# Example usage of Wildcards
+STORES = ["0001", "0002", "0003", "0004", "0005"]
+
+rule all:
+    input: expand("data/processed/store_{store}.csv", store=STORES)
+
+rule clean_store:
+    input: "data/raw/store_{store}.csv"
+    output: "data/processed/store_{store}.csv"
+    shell: "python scripts/clean.py {input} {output}"
+```
+
 ---
