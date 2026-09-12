@@ -1,0 +1,2 @@
+store_id,product,transaction_count,total_quantity,avg_quantity,total_revenue,avg_revenue,min_revenue,max_revenue,first_date,last_date
+3,beverages,1,2.0,2.0,64.61,64.61,64.61,64.61,2026-08-28,2026-08-28

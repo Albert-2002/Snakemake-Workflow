@@ -1,0 +1,4 @@
+store_id,product,transaction_count,total_quantity,avg_quantity,total_revenue,avg_revenue,min_revenue,max_revenue,first_date,last_date
+1,bakery,1,7.0,7.0,24.71,24.71,24.71,24.71,2026-08-21,2026-08-21
+2,bakery,2,13.0,6.5,103.73,51.865,25.98,77.75,2026-08-19,2026-08-21
+3,bakery,2,11.0,5.5,100.15,50.075,36.73,63.42,2026-08-01,2026-08-08

@@ -1,0 +1,4 @@
+store_id,product,transaction_count,total_quantity,avg_quantity,total_revenue,avg_revenue,min_revenue,max_revenue,first_date,last_date
+1,dairy,6,46.0,7.666666666666667,184.16,30.69333333333333,10.03,68.72,2026-08-01,2026-08-24
+2,dairy,2,14.0,7.0,81.87,40.935,31.17,50.7,2026-08-22,2026-08-26
+3,dairy,1,9.0,9.0,62.38,62.38,62.38,62.38,2026-08-06,2026-08-06
